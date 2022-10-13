@@ -1,6 +1,42 @@
+:root{
+    --pink-color:rgb(252, 168, 182);
+}
+body{
+    font-family:'Helvetica',sans-serif;
+}
 .container{
     display:flex;
     flex-direction: column;
-    width:50vw;
+    width:60vw;
     margin:auto;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+    padding: 30px 0px 10px 0px;
+    height: 100px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: var(--pink-color);
+}
+label{
+    font-size:large;
+}
+input{
+    margin:5px 0px;
+}
+#check-number{
+    margin:auto;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: var(--pink-color);
+    background-color: var(--pink-color);
+}
+#check-number:hover{
+    background-color:rgb(238, 119, 139);
+}
+#result-box{
+    margin:10px 0px;
+    font-size: large;
 }
